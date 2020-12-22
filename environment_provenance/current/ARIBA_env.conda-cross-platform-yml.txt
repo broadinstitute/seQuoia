@@ -1,0 +1,7 @@
+name: null
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+prefix: /cil/shed/apps/external/seQuoia/ARIBA/ARIBA
+

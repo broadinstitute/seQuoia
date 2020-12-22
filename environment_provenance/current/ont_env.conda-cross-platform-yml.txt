@@ -1,0 +1,16 @@
+name: null
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - canu=1.4
+  - nanoplot=1.18.2
+  - nanopolish=0.10.2
+  - porechop=0.2.3
+  - filtlong=0.2.0
+  - minimap2=2.12
+  - parallel
+  - r-minionqc=1.4.2
+prefix: /cil/shed/apps/external/seQuoia/ont_env
+

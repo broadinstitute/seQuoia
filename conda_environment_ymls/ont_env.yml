@@ -1,0 +1,15 @@
+name: null
+channels:
+  - bioconda
+  - biobakery
+  - conda-forge
+  - defaults
+dependencies:
+  - canu=1.9
+  - r-minionqc=1.4.2
+  - filtlong=0.2.0
+  - minimap2=2.12
+  - NanoPlot=1.18.2
+  - nanopolish=0.10.2
+  - parallel
+  - porechop=0.2.3

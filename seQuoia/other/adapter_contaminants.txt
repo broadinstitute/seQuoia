@@ -1,0 +1,104 @@
+#### TAKEN FROM TRIM GALORE ####
+##################################################################
+# This file contains a list of potential contaminants which are
+# frequently found in high throughput sequencing reactions.  These
+# are mostly sequences of adapters / primers used in the various
+# sequencing chemistries.
+#
+# Please DO NOT rely on these sequences to design your own oligos, some
+# of them are truncated at ambiguous positions, and none of them are
+# definitive sequences from the manufacturers so don't blame us if you
+# try to use them and they don't work.
+#
+# You can add more sequences to the file by putting one line per entry
+# and specifying a name[tab]sequence.  If the contaminant you add is
+# likely to be of use to others please consider sending it to the FastQ
+# authors, either via a bug report at www.bioinformatics.babraham.ac.uk/bugzilla/
+# or by directly emailing simon.andrews@babraham.ac.uk so other users of
+# the program can benefit.
+
+Illumina Single End Adapter 1					GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG
+Illumina Single End Adapter 2					CAAGCAGAAGACGGCATACGAGCTCTTCCGATCT
+Illumina Single End PCR Primer 1				AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT
+Illumina Single End PCR Primer 2				CAAGCAGAAGACGGCATACGAGCTCTTCCGATCT
+Illumina Single End Sequencing Primer			ACACTCTTTCCCTACACGACGCTCTTCCGATCT
+
+Illumina Paired End Adapter 1					ACACTCTTTCCCTACACGACGCTCTTCCGATCT
+Illumina Paired End Adapter 2					GATCGGAAGAGCGGTTCAGCAGGAATGCCGAG
+Illumina Paried End PCR Primer 1				AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT
+Illumina Paired End PCR Primer 2				CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT
+Illumina Paried End Sequencing Primer 1			ACACTCTTTCCCTACACGACGCTCTTCCGATCT
+Illumina Paired End Sequencing Primer 2			CGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT
+
+Illumina DpnII expression Adapter 1				ACAGGTTCAGAGTTCTACAGTCCGAC
+Illumina DpnII expression Adapter 2				CAAGCAGAAGACGGCATACGA
+Illumina DpnII expression PCR Primer 1			CAAGCAGAAGACGGCATACGA
+Illumina DpnII expression PCR Primer 2			AATGATACGGCGACCACCGACAGGTTCAGAGTTCTACAGTCCGA
+Illumina DpnII expression Sequencing Primer		CGACAGGTTCAGAGTTCTACAGTCCGACGATC
+
+Illumina NlaIII expression Adapter 1			ACAGGTTCAGAGTTCTACAGTCCGACATG
+Illumina NlaIII expression Adapter 2			CAAGCAGAAGACGGCATACGA
+Illumina NlaIII expression PCR Primer 1			CAAGCAGAAGACGGCATACGA
+Illumina NlaIII expression PCR Primer 2			AATGATACGGCGACCACCGACAGGTTCAGAGTTCTACAGTCCGA
+Illumina NlaIII expression Sequencing Primer	CCGACAGGTTCAGAGTTCTACAGTCCGACATG
+
+Illumina Multiplexing Adapter 1					GATCGGAAGAGCACACGTCT
+Illumina Multiplexing Adapter 2					ACACTCTTTCCCTACACGACGCTCTTCCGATCT
+Illumina Multiplexing PCR Primer 1.01			AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT
+Illumina Multiplexing PCR Primer 2.01			GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
+Illumina Multiplexing Read1 Sequencing Primer	ACACTCTTTCCCTACACGACGCTCTTCCGATCT
+Illumina Multiplexing Index Sequencing Primer	GATCGGAAGAGCACACGTCTGAACTCCAGTCAC
+Illumina Multiplexing Read2 Sequencing Primer	GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
+
+Illumina PCR Primer Index 1						CAAGCAGAAGACGGCATACGAGATCGTGATGTGACTGGAGTTC
+Illumina PCR Primer Index 2						CAAGCAGAAGACGGCATACGAGATACATCGGTGACTGGAGTTC
+Illumina PCR Primer Index 3						CAAGCAGAAGACGGCATACGAGATGCCTAAGTGACTGGAGTTC
+Illumina PCR Primer Index 4						CAAGCAGAAGACGGCATACGAGATTGGTCAGTGACTGGAGTTC
+Illumina PCR Primer Index 5						CAAGCAGAAGACGGCATACGAGATCACTGTGTGACTGGAGTTC
+Illumina PCR Primer Index 6						CAAGCAGAAGACGGCATACGAGATATTGGCGTGACTGGAGTTC
+Illumina PCR Primer Index 7						CAAGCAGAAGACGGCATACGAGATGATCTGGTGACTGGAGTTC
+Illumina PCR Primer Index 8						CAAGCAGAAGACGGCATACGAGATTCAAGTGTGACTGGAGTTC
+Illumina PCR Primer Index 9						CAAGCAGAAGACGGCATACGAGATCTGATCGTGACTGGAGTTC
+Illumina PCR Primer Index 10					CAAGCAGAAGACGGCATACGAGATAAGCTAGTGACTGGAGTTC
+Illumina PCR Primer Index 11					CAAGCAGAAGACGGCATACGAGATGTAGCCGTGACTGGAGTTC
+Illumina PCR Primer Index 12					CAAGCAGAAGACGGCATACGAGATTACAAGGTGACTGGAGTTC
+
+Illumina DpnII Gex Adapter 1					GATCGTCGGACTGTAGAACTCTGAAC
+Illumina DpnII Gex Adapter 1.01					ACAGGTTCAGAGTTCTACAGTCCGAC
+Illumina DpnII Gex Adapter 2					CAAGCAGAAGACGGCATACGA
+Illumina DpnII Gex Adapter 2.01					TCGTATGCCGTCTTCTGCTTG
+Illumina DpnII Gex PCR Primer 1					CAAGCAGAAGACGGCATACGA
+Illumina DpnII Gex PCR Primer 2					AATGATACGGCGACCACCGACAGGTTCAGAGTTCTACAGTCCGA
+Illumina DpnII Gex Sequencing Primer			CGACAGGTTCAGAGTTCTACAGTCCGACGATC
+
+Illumina NlaIII Gex Adapter 1.01				TCGGACTGTAGAACTCTGAAC
+Illumina NlaIII Gex Adapter 1.02				ACAGGTTCAGAGTTCTACAGTCCGACATG
+Illumina NlaIII Gex Adapter 2.01				CAAGCAGAAGACGGCATACGA
+Illumina NlaIII Gex Adapter 2.02				TCGTATGCCGTCTTCTGCTTG
+Illumina NlaIII Gex PCR Primer 1				CAAGCAGAAGACGGCATACGA
+Illumina NlaIII Gex PCR Primer 2				AATGATACGGCGACCACCGACAGGTTCAGAGTTCTACAGTCCGA
+Illumina NlaIII Gex Sequencing Primer			CCGACAGGTTCAGAGTTCTACAGTCCGACATG
+
+ABI Dynabead EcoP Oligo							CTGATCTAGAGGTACCGGATCCCAGCAGT
+ABI Solid3 Adapter A							CTGCCCCGGGTTCCTCATTCTCTCAGCAGCATG
+ABI Solid3 Adapter B							CCACTACGCCTCCGCTTTCCTCTCTATGGGCAGTCGGTGAT
+ABI Solid3 5' AMP Primer						CCACTACGCCTCCGCTTTCCTCTCTATG
+ABI Solid3 3' AMP Primer						CTGCCCCGGGTTCCTCATTCT
+ABI Solid3 EF1 alpha Sense Primer				CATGTGTGTTGAGAGCTTC
+ABI Solid3 EF1 alpha Antisense Primer			GAAAACCAAAGTGGTCCAC
+ABI Solid3 GAPDH Forward Primer					TTAGCACCCCTGGCCAAGG
+ABI Solid3 GAPDH Reverse Primer					CTTACTCCTTGGAGGCCATG
+
+Clontech Universal Primer Mix Short				CTAATACGACTCACTATAGGGC
+Clontech Universal Primer Mix Long				CTAATACGACTCACTATAGGGCAAGCAGTGGTATCAACGCAGAGT
+Clontech SMARTer II A Oligonucleotide			AAGCAGTGGTATCAACGCAGAGTAC
+Clontech SMART CDS Primer II A					AAGCAGTGGTATCAACGCAGAGTACT
+
+Nextera Transposon Sequences 1  GCCTCCCTCGCGCCATCAGAGATGTGTATAAGAGACAG
+Nextera Transposon Sequences 2  GCCTTGCCAGCCCGCTCAGAGATGTGTATAAGAGACAG
+
+Nextera Adapters 1  GATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG
+Nextera Adapters 2  ACACTCTTTCCCTACACGACGCTCTTCCGATCT
+
+Nextera Multiplexing Adapters 1 GATCGGAAGAGCACACGTCT
+Nextera Multiplexing Adapters 2 ACACTCTTTCCCTACACGACGCTCTTCCGATCT

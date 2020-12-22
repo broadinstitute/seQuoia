@@ -1,0 +1,17 @@
+name: null
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=2.7
+  - numpy
+  - matplotlib
+  - spectra
+  - requests
+  - markdown
+  - jinja2
+  - lzstring
+  - click
+prefix: /cil/shed/apps/external/seQuoia/MultiQC_env
+

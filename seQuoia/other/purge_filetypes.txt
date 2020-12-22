@@ -1,0 +1,1 @@
+all .fastq.gz  .bam    .sam    .cram    .fastq  .fna    .fq .fq.gz

@@ -1,0 +1,69 @@
+appdirs==1.4.4
+attrs==19.3.0
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+brotlipy==0.7.0
+CacheControl==0.12.6
+certifi==2020.6.20
+cffi==1.14.0
+chardet==3.0.4
+cryptography==2.9.2
+cycler==0.10.0
+Cython @ file:///home/conda/feedstock_root/build_artifacts/cython_1591799495396/work
+decorator==4.4.2
+h5py @ file:///home/conda/feedstock_root/build_artifacts/h5py_1593217411052/work
+hdmedians==0.13
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1593211372860/work
+intervaltree==3.0.2
+ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1593235451385/work
+ipython-genutils==0.2.0
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1592619883817/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1589812474002/work
+kiwisolver==1.2.0
+lockfile==0.12.2
+matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-base_1592576124213/work
+more-itertools @ file:///home/conda/feedstock_root/build_artifacts/more-itertools_1592197792446/work
+msgpack==1.0.0
+natsort==7.0.1
+ncbi-genome-download==0.3.0
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1591485220230/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
+pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1592421990746/work
+parso==0.7.0
+pexpect==4.8.0
+pickleshare==0.7.5
+pip==20.1.1
+pluggy @ file:///home/conda/feedstock_root/build_artifacts/pluggy_1592827468899/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1592500439797/work
+ptyprocess==0.6.0
+py @ file:///home/conda/feedstock_root/build_artifacts/py_1593088446458/work
+pybind11==2.5.0
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+Pygments==2.6.1
+pyOpenSSL==19.1.0
+pyparsing==2.4.7
+PyQt5==5.12.3
+PyQt5-sip==4.19.18
+PyQtChart==5.12
+PyQtWebEngine==5.12.1
+pysam==0.16.0.1
+PySocks==1.7.1
+pytest==5.4.3
+python-dateutil==2.8.1
+pytz==2020.1
+PyVCF==0.6.8
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1592425495151/work
+scikit-bio==0.5.6
+scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1589920858235/work
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy_1593253465737/work
+setuptools==47.3.1.post20200616
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+sortedcontainers==2.2.2
+strainge==0.1+186.gf2bd93c
+threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
+tornado==6.0.4
+traitlets==4.3.3
+urllib3==1.25.9
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1592931742287/work
+wheel==0.34.2
+zipp==3.1.0

@@ -1,0 +1,10 @@
+name: null
+channels:
+  - bioconda
+  - biobakery
+  - conda-forge
+  - defaults
+dependencies:
+  - kneaddata=0.7.2
+  - metaphlan2=2.7.7
+  - shortbred

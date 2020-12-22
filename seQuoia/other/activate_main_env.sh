@@ -1,0 +1,1 @@
+source /path/to/miniconda3/bin/activate /path/to/main_env/

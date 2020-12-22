@@ -1,0 +1,20 @@
+name: null
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - scipy
+  - scikit-bio[version='>=0.5']
+  - numpy
+  - h5py
+  - pyvcf
+  - pysam
+  - matplotlib
+  - samtools
+  - python[version='>=3.6']
+  - bwa
+  - pip
+  - pybind11
+prefix: /cil/shed/apps/external/seQuoia/StrainGE/StrainGE_env
+

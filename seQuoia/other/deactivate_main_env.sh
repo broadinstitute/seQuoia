@@ -1,0 +1,1 @@
+source /path/to/miniconda3/bin/deactivate /path/to/main_env/

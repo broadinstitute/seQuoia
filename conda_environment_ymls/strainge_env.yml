@@ -1,0 +1,20 @@
+name: null
+channels:
+    - bioconda
+    - conda-forge
+    - anaconda
+dependencies:
+    - "python>=3.6"
+    - pybind11
+    - "scikit-bio>=0.5"
+    - numpy
+    - scipy
+    - h5py
+    - matplotlib
+    - pyvcf
+    - pysam
+    - samtools
+    - bwa
+    - pip
+    - pip:
+        - intervaltree

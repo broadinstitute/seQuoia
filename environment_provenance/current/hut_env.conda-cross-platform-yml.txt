@@ -1,0 +1,11 @@
+name: null
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - shortbred
+  - metaphlan2=2.7.7
+  - kneaddata=0.7.2
+prefix: /cil/shed/apps/external/seQuoia/hut_env
+

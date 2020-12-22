@@ -1,0 +1,13 @@
+name: null
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - bowtie2=2.3.5.1
+  - bcftools=1.9
+  - pymummer=0.10.3
+  - spades=3.13.0
+  - ariba=2.14.5

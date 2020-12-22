@@ -1,0 +1,8 @@
+StrainGE_env	/path/to/StrainGE_env/
+GAEMR_env	/path/to/GAEMR_env/
+ont_env /path/to/ONT_env/	R
+main_env	/path/to/main_env/
+ARIBA_env	/path/to/ARIBA_env/
+hut_env	/path/to/hut_env/
+MultiQC_env	/path/to/MultiQC_env/
+shiny_env	/path/to/seeQc_Shiny/  R

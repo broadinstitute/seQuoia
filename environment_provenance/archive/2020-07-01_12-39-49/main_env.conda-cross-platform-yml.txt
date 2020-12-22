@@ -1,0 +1,31 @@
+name: null
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - seqtk=1.3
+  - unicycler=0.4.6
+  - cutadapt=1.18
+  - mlst=2.15.1
+  - python=3.6
+  - trim-galore=0.6.5
+  - trimmomatic=0.38
+  - samtools=1.9
+  - bedtools=2.27.1
+  - centrifuge=1.0.4
+  - pilon=1.23
+  - spades=3.13.0
+  - fqtools=2.0
+  - biopython
+  - sortmerna=2.1
+  - pandas
+  - numpy
+  - bwa=0.7.17
+  - picard=2.18.17
+  - fastqc=0.11.8
+  - fastq-pair=1.0
+  - h5py
+  - xlsxwriter
+prefix: /cil/shed/apps/external/seQuoia/main_env
+
